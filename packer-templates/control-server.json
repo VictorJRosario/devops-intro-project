@@ -59,7 +59,7 @@
         "access_key": "AKIAYU7WIFDGTMUBY4QS",
         "secret_key": "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",
         "region": "us-west-2",
-        "source_ami": "ami-10b68a78",
+        "source_ami": "ami-0d1cd67c26f5fca19",
         "instance_type": "t1.micro",
         "ssh_username": "ubuntu",
         "ami_name": "control-{{ user `PACKER_BOX_NAME` }}-{{timestamp}}"

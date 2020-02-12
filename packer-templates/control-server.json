@@ -2,8 +2,8 @@
   "variables": {
       "PACKER_OS_FLAVOUR": "ubuntu",
       "PACKER_BOX_NAME": "ubuntu-14.04.6-server-amd64",
-      "AWS_ACCESS_KEY_ID": "{{env `AWS_ACCESS_KEY_ID`}}",
-      "AWS_SECRET_ACCESS_KEY": "{{env `AWS_SECRET_ACCESS_KEY`}}",
+      "AWS_ACCESS_KEY_ID": "AKIAYU7WIFDGTMUBY4QS",
+      "AWS_SECRET_ACCESS_KEY": "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",
       "DIGITALOCEAN_API_TOKEN": "{{env `DIGITALOCEAN_API_TOKEN`}}"
   },
   "builders": [
@@ -59,10 +59,10 @@
         "access_key": "AKIAYU7WIFDGTMUBY4QS",
         "secret_key": "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",
         "region": "us-west-2",
-        "source_ami": "ami-0d1cd67c26f5fca19",
+        "source_ami": "ami-01460aa81365561fe",
         "instance_type": "t2.micro",
         "ssh_username": "ubuntu",
-        "ami_name": "control-{{ user `PACKER_BOX_NAME` }}-{{timestamp}}"
+        "ami_name": "UbuntuServerUdacity"
       },
       {
         "type": "googlecompute",
